@@ -1,5 +1,5 @@
 public Hexagon[] tilecoords(float hexsize, int size) {
-    Hexagon[] hexes = new Hexagon[1 + (size - 1) * 6];
+    Hexagon[] hexes = new Hexagon[1 + 3 * size * (size + 1)];
     int i = 0;
     for (int q = 0; q >= -size; q--) {
       for(int r = -size - q; r < size; r++) {

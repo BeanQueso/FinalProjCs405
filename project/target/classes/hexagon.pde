@@ -1,25 +1,31 @@
-public class hexagon {
+public class Hexagon {
 
 private int q = 0;
 private int s = 0;
 private int r = 0;
+private float hexsize = 0;
 private int n = 0;
 
-  public hexagon(q, s, r, n) {
+  public Hexagon (int q, int s,int r, float hexsize, int n) {
     this.q = q;
     this.s = s;
     this.r = r;
+    this.hexsize = hexsize;
     this.n = n;
   }
 
   public int getq() {
-    return this.q
+    return this.q;
   }
   public int gets() {
-    return this.s
+    return this.s;
   }
   public int getr() {
-    return this.r
+    return this.r;
+  }
+
+  public float gethexsize() {
+    return this.hexsize;
   }
 
   public int getdoublecoordcol() {
